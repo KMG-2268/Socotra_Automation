@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="basement" value="No"/>
+    <parameter name="occupation" value="Business Professional"/>
+    <parameter name="gender" value="Male"/>
+    <parameter name="dis_fireStation" value="2-5"/>
+    <parameter name="maritialStatus" value="Married"/>
+    <parameter name="sic" value="1220"/>
+    <parameter name="password" value="socotra"/>
+    <parameter name="lname" value="Scenario1"/>
+    <parameter name="security" value="No"/>
+    <parameter name="dis_fireHydrant" value="&lt;400 Feet"/>
+    <parameter name="property_type" value="Office Low Rise"/>
+    <parameter name="property_used" value="Owner"/>
+    <parameter name="location_no" value="LOC 001"/>
+    <parameter name="zip" value="95959"/>
+    <parameter name="area" value="2500"/>
+    <parameter name="fname" value="Test"/>
+    <parameter name="product" value="Commercial Property Location"/>
+    <parameter name="business_form" value="Individual"/>
+    <parameter name="nature" value="Accounting Services"/>
+    <parameter name="Address2" value="Test Address2"/>
+    <parameter name="business_Established" value="1951"/>
+    <parameter name="dateOfBirth" value="2009/01/01"/>
+    <parameter name="building_no" value="BLDG 001"/>
+    <parameter name="Address1" value="101 Boulder St"/>
+    <parameter name="construction_type" value="Light Non-Combustible"/>
+    <parameter name="construction_year" value="1951-2000"/>
+    <parameter name="exposure" value="Commercial Building"/>
+    <parameter name="stories_no" value="3"/>
+    <parameter name="username" value="alice.lee"/>
+    <classes>
+      <class name="tests.commercial_Builcing_PageTest">
+        <methods>
+          <include name="before_login"/>
+          <include name="dashboard"/>
+          <include name="before_dashboard"/>
+          <include name="create_newPolicy"/>
+          <include name="before_Commercial_building"/>
+          <include name="commercial_Building"/>
+          <include name="before_NewPolicy"/>
+          <include name="exposure" invocation-numbers="0"/>
+          <include name="newApplication"/>
+          <include name="before_newApplication"/>
+          <include name="before_exposure"/>
+          <include name="login_details"/>
+        </methods>
+      </class> <!-- tests.commercial_Builcing_PageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
